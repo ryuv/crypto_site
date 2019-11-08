@@ -1,3 +1,3 @@
 Crypto Site demo ver.👨🏻‍💻
 
-React / React-Router / CoinCap API / chart.js / axios / HTML/CSS/JavaScript
+React / React-Router / CoinCap API / chart.js / axios / HTML / CSS / JavaScript
