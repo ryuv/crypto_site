@@ -1,0 +1,195 @@
+* {
+  color:white;
+  text-decoration: none;
+}
+
+
+.wrap {
+  width: 100%;
+  height: 1000px;
+}
+
+
+/* header */
+.header {
+  width: 100%;
+  height: 90px;
+  background-color: #030c1d;
+}
+
+.logo {
+  width: 200px;
+  height: 90px;
+  background-image: url('./logo.png');
+  background-repeat: no-repeat;
+  background-size: 70px;
+  background-position-x: 70px;
+  background-position-y: 10px;
+}
+
+
+/* sec_dashboard */
+.sec_dashboard {
+  width: 300px;
+  height: 100%;
+  float: left;
+}
+
+.dashboard {
+  display: block;
+  font-size: 20px;
+  padding: 30px 0 30px 0;
+  text-align: center;
+  color:#727882;
+  font-weight: bold;
+}
+
+
+/* sec_coinList */
+.sec_coinList {
+  width: 180px;
+  height: 100%;
+  float: left;
+  background-color: #030c1d;
+
+  overflow: scroll;
+}
+
+.div_coin {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coin {
+  padding: 13px 100%;
+  color: #727882;
+}
+
+/* sec_chart */
+.sec_chart {
+  height: 100%;
+  width : 100%;
+	margin-right : -480px;
+	padding-left : 530px;
+  box-sizing : border-box;
+  padding-top:40px;
+  background-color: #0d182d;
+}
+
+.sec_chart_name{
+  width: 47.5%;
+  height: 280px;
+  float: left;
+}
+
+.sec_chart_name_title{
+  width: 100%;
+  height: 33.3%;
+  display: flex;
+  align-items: center;
+}
+
+.coin_logo{
+  width: 52.5px;
+  height: 52.5px;
+  border-radius: 30px;
+  background-image: url("./blogo.png");
+  background-size: 60px;
+  background-position-x: -3.5px;
+  background-position-y: -1.5px;
+}
+
+.coin_name{
+  padding-left: 7px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.coin_price{
+  height: 17%;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bolder;
+  color:#6e809b;
+}
+
+.coin_price_num{
+  height: 83%;
+  width: 100%;
+  font-size: 100px;
+  font-weight: normal;
+}
+
+.sec_chart_name_price{
+  width: 100%;
+  height: 66.6%;
+}
+
+.sec_chart_div{
+  width: 23.75%;
+  height: 280px;
+  float: left;
+}
+
+.sec_chart_div_half{
+  width: 100%;
+  height: 50%;
+  float: block;
+}
+
+.sec_chart_div_half_sec1{
+  height: 55%;
+  width: 100%;
+  font-size: 25px;
+  font-weight: bolder;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.sec_chart_div_half_sec2{
+  height: 45%;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.sec_chart_main{
+  width: 95%;
+  height: 400px;
+  float: left;
+}
+
+.sec_chart_main_day{
+  border: 1px solid red;
+  width: 100%;
+  height: 20%;
+}
+
+.sec_chart_main_chart{
+  border: 1px solid red;
+  width: 100%;
+  height: 80%;
+}
+
+.sec_chart_footer{
+  border: 1px solid white;
+  width: 95%;
+  height: 220px;
+  float: left;
+}
+
+#bitcoin {
+  background:linear-gradient(to right,#FF8008,#FFC837)
+}
+
+.chart_css{
+  background-color: #0f192e;
+  display: block;
+}
